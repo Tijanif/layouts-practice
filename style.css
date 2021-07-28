@@ -1,0 +1,38 @@
+/* Font Roboto */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,400&display=swap');
+
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header */
+.header {
+  padding: 0 45px;
+  background-color: #db2955;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* nav links */
+.nav {
+  list-style: none;
+  display: flex;
+}
+.nav a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  transition: all 0.3s ease-out;
+}
+.nav a:hover {
+  color: #c5cae9;
+  transform: rotate(6deg);
+}
+.nav li {
+  margin-left: 20px;
+}
