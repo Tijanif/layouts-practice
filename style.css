@@ -9,10 +9,10 @@
   font-family: 'Roboto', sans-serif;
 }
 
-/* Header */
+/* HEADER */
 .header {
   padding: 0 45px;
-  background-color: #db2955;
+  background-color: #b35c75;
   color: #fff;
   display: flex;
   justify-content: space-between;
@@ -35,4 +35,37 @@
 }
 .nav li {
   margin-left: 20px;
+}
+
+/* HERO */
+.hero {
+  background-color: #ffd9e4;
+  padding: 60px 45px;
+  display: flex;
+  justify-content: center;
+}
+
+.hero-inner {
+  max-width: 760px;
+}
+
+.hero h1 {
+  font-weight: normal;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.hero p {
+  font-size: 1.18rem;
+  line-height: 1.6;
+}
+
+.hero-btn {
+  background-color: #b35c75;
+  font-size: 1.18rem;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  display: inline-block;
 }
